@@ -1,10 +1,10 @@
-import express from 'express';
-import { renderToString } from 'vue/server-renderer';
-import { createApp } from './app.js';
+import express from "express";
+import { renderToString } from "vue/server-renderer";
+import { createApp } from "./app.js";
 
 const server = express();
 
-server.get('/', (req, res) => {
+server.get("/", (req, res) => {
   const app = createApp();
 
   renderToString(app).then((html) => {
@@ -12,7 +12,8 @@ server.get('/', (req, res) => {
     <!DOCTYPE html>
     <html>
       <head>
-        <title>Vue SSR Example</title>
+        <title>Vue SSR with Hydration example</title>
+        <link rel="stylesheet" href="styles.css" />
         <script type="importmap">
           {
             "imports": {
@@ -30,8 +31,8 @@ server.get('/', (req, res) => {
   });
 });
 
-server.use(express.static('.'));
+server.use(express.static("."));
 
 server.listen(3000, () => {
-  console.log('ready');
+  console.log("ready");
 });
