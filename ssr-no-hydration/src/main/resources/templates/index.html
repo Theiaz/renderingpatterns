@@ -1,19 +1,19 @@
 <!DOCTYPE html>
 <html xmlns:th="http://www.thymeleaf.org">
   <head>
-      <title>SSR Example</title>
-      <link rel="stylesheet" th:href="@{/styles.css}"/>
+    <title>SSR Example</title>
+    <link rel="stylesheet" th:href="@{styles.css}" />
   </head>
   <body>
-  <h1>
+    <h1>
       <span>I am server rendered content for</span>
       <span th:text="${name}"></span>
       <span>\o/</span>
-  </h1>
-  <button>1</button>
-  <div>
-      <img src="https://picsum.photos/300/200"/>
-  </div>
-
+    </h1>
+    <button>1</button>
+    <div>
+      <img src="https://picsum.photos/300/200" />
+    </div>
   </body>
+  <script th:src="@{index.js}"></script>
 </html>
