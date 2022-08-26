@@ -1,0 +1,8 @@
+- Beispielimplementierungen?
+- Frameworks etc hinzufügen
+- Fehlende Patterns
+  - Streaming
+  - Server Component
+  - Resumability
+- prüfen Unterschied Partial Hydration vs Island
+- Bezug mit Begriff Universal Apps herstellen
