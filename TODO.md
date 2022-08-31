@@ -1,8 +1,2 @@
-- Beispielimplementierungen?
-  - Qwik? https://github.com/ryansolid/qwik-hackernews
-- Frameworks etc hinzufügen
-- Fehlende Patterns
-  - Streaming
-  - Server Component
-  - Resumability
+
 - Bezug mit Begriff Universal Apps herstellen
