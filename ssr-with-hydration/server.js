@@ -12,7 +12,7 @@ server.get("/", (req, res) => {
     <!DOCTYPE html>
     <html>
       <head>
-        <title>Vue SSR with Hydration example</title>
+        <title>SSR with Hydration example</title>
         <link rel="stylesheet" href="styles.css" />
         <script type="importmap">
           {

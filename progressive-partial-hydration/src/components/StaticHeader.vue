@@ -1,12 +1,12 @@
 <template>
-  <header>This is a static header</header>
+  <h1>I am static content \o/</h1>
 </template>
 
 <script lang="ts"></script>
 
 <style>
-header {
-  font-size: 2em;
-  background-color: green;
+h1 {
+  color: orange;
+  margin: 0;
 }
 </style>

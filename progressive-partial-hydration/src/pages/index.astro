@@ -18,23 +18,14 @@ const someProps = {
     <meta name="generator" content={Astro.generator} />
     <title>Progressive & Partial Hydration Example</title>
     <link rel="icon" type="image/svg+xml" href="/favicon.svg" />
-    <style>
-      html,
-      body {
-        font-family: system-ui;
-        margin: 0;
-      }
-      body {
-        padding: 2rem;
-      }
-    </style>
   </head>
   <body>
     <main>
       <StaticHeader />
       <CounterReact {...someProps} client:load />
-      <br />
-      <br />
+      <div>
+        <img src="https://picsum.photos/300/200" />
+      </div>
       <br />
       <br />
       <br />
